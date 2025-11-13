@@ -1,70 +1,64 @@
-body {
-    background-color: #101018;
-    font-family: "Teachers", sans-serif;
+.a1 {
+    font-family: Helvetica, Arial, sans-serif;
+    border-radius: 20px;
+    padding: 20px 30px;
+    align-items: center;
+    text-align: left;
+    font-size: 20px;
     font-weight: 500;
+    color: rgba(255,255,255,1);
+    background-color: #2a2a2a;
+    position: fixed;
+    border: 3px solid rgba(255,255,255,0.1);
+    transition: border 0.3s ease;
 }
 
-/* Navbar container */
-.navbar {
-  display: flex;
-  justify-content: space-between; /* Logo left, links right */
-  align-items: center;
-  padding: 15px 50px;
-  background-color: #1e1e2f;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-  border-radius: 15px;
+.a1:hover {
+    border: 3px solid #F5622C;
+    background-color: #3a2a25; /* change border when hovering anywhere in navbar */
 }
 
-/* Logo */
-.logo {
-  font-family: "Teachers", sans-serif;
-  font-size: 24px;
-  font-weight: 700;
-  color: #ff9800;
-  letter-spacing: 1px;
+.a1 a {
+    color: rgba(255,255,255,1);
+    background-color: transparent;
+    text-decoration: none;
+    margin: 0 5px;
+    transition: color 0.3s ease, transform 0.3s ease;
 }
 
-/* Nav links */
-.nav-links {
-  list-style: none;
-  display: flex;
-  gap: 30px;
-  font-size: 20px;
+.a1 a:hover {
+    color: #F5622C;
+    background-color: transparent;
+    text-decoration: none;
+    font-weight: 600;
+    transform: scale(1.1); 
 }
 
-/* Nav links items */
-.nav-links li a {
-  text-decoration: none;
-  color: white;
-  font-weight: 500;
-  transition: color 0.3s, transform 0.3s;
-}
 
-/* Hover effect */
-.nav-links li a:hover {
-  color: #ff9800;
-  transform: translateY(-2px);
-}
-
-/* Parent container */
-.container {
+.a2 {
     display: flex;
-    flex-direction: row;
-    justify-content: center; /* Center horizontally */
-    align-items: center;    /* Center each box vertically */
-    gap: 20px;              /* Space between rows */
-    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 450px 20px;
 }
 
-/* Each box */
-.Box {
-    width: 400px;
-    padding: 20px 40px;
-    background: #1e1e2f;
-    border-radius: 15px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    color: #ff9800;
-    text-align: center;
+.a2 a {
+    font-family: Helvetica, Arial, sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 60px;
     font-weight: 700;
-    font-size: 28px;
+    transition: color 1s ease, transform 0.7s ease;
+}
+
+.a2 a:hover {
+    color: #F5622C;
+    transform: scale(4); 
+}
+
+
+
+body {
+    background-color: #1e1e1e;
 }
