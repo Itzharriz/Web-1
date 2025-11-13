@@ -1,0 +1,70 @@
+body {
+    background-color: #101018;
+    font-family: "Teachers", sans-serif;
+    font-weight: 500;
+}
+
+/* Navbar container */
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Logo left, links right */
+  align-items: center;
+  padding: 15px 50px;
+  background-color: #1e1e2f;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  border-radius: 15px;
+}
+
+/* Logo */
+.logo {
+  font-family: "Teachers", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #ff9800;
+  letter-spacing: 1px;
+}
+
+/* Nav links */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  font-size: 20px;
+}
+
+/* Nav links items */
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: color 0.3s, transform 0.3s;
+}
+
+/* Hover effect */
+.nav-links li a:hover {
+  color: #ff9800;
+  transform: translateY(-2px);
+}
+
+/* Parent container */
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* Center horizontally */
+    align-items: center;    /* Center each box vertically */
+    gap: 20px;              /* Space between rows */
+    margin-top: 50px;
+}
+
+/* Each box */
+.Box {
+    width: 400px;
+    padding: 20px 40px;
+    background: #1e1e2f;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    color: #ff9800;
+    text-align: center;
+    font-weight: 700;
+    font-size: 28px;
+}
